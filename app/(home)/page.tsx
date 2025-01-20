@@ -1,14 +1,22 @@
 "use client";
 import HeroSection from '@/components/HeroSection';
+import PricingPage from '@/components/PricingPage';
 import React from 'react'
 
 const HomePage = () => {
-
   return (
-    <div className='grid items-center justify-center min-h-screen p-8 gap-16 sm:p-20'>
+    <div className="min-h-screen flex flex-col items-center gap-16 p-8 sm:p-20">
+      {/* Hero Section */}
+      <div className="w-full max-w-4xl mx-auto">
         <HeroSection />
+      </div>
+
+      {/* Pricing Page */}
+      <div>
+        <PricingPage />
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default HomePage;
