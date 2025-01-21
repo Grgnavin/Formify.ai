@@ -2,7 +2,7 @@ import React from 'react'
 
 const Logo = () => {
   return (
-    <div>
+    <div >
         <h1 className='font-bold text-2xl'>Formify.ai-Melody</h1>
     </div>
   )

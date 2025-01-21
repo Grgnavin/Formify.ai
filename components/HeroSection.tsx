@@ -34,7 +34,7 @@ const HeroSection = () => {
         <div className='grid grid-cols-4 gap-3'>
         {
           suggestBtnText.map((x: SuggestionText, idx: number) => (
-            <Button key={idx} className='rounded-full h-10 shadow-sm' variant={'outline'}>{x.label}</Button>
+            <Button key={idx} className='rounded-full h-10 shadow-sm dark:border dark:border-gray-500' variant={'outline'}>{x.label}</Button>
           ))
         }
         </div>

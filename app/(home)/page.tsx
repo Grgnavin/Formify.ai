@@ -1,4 +1,5 @@
 "use client";
+import Footer from '@/components/Footer';
 import HeroSection from '@/components/HeroSection';
 import PricingPage from '@/components/PricingPage';
 import React from 'react'
@@ -14,6 +15,10 @@ const HomePage = () => {
       {/* Pricing Page */}
       <div>
         <PricingPage />
+      </div>
+      {/* Footer */}
+      <div>
+        <Footer />
       </div>
     </div>
   );
